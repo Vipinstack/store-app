@@ -44,7 +44,7 @@ const ProductSlug = ({ params: { id, productSlug } }: productValidate) => {
                 </div>
                 <div className="modal_content">
                   <div className="modal_content_body">
-                    <h2>""</h2>
+                    <h2>Demo Model</h2>
                     <div className="modal_card">
                       <div className="modal_tax">
                         <h2>₹40000</h2>

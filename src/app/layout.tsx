@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script async src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       </head>
       <body style={{ backgroundColor: 'rgb(255, 255, 255)' }} className={cabin.className}><Nav /><main>{children}</main><Footer /></body>
     </html>
