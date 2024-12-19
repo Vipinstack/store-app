@@ -41,7 +41,7 @@ const Modal = ({ show, product, onClose }: any) => {
                                             <div className="modal_sel_img">
                                                 <ul>
                                                     {item?.img?.map((e: any, index: any) => (
-                                                        <li key={index} onClick={() => {setImgHover(e),setImgHoverIndex(index)}} className={imgHoverIndex === index ? 'modal_onClick' : ''}>
+                                                        <li key={index} onClick={(e) => {setImgHover(e),setImgHoverIndex(index)}} className={imgHoverIndex === index ? 'modal_onClick' : ''}>
                                                             <img src={e} alt="sub-img" />
                                                         </li>
                                                     ))}
