@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --background-height: 80px;
+    --text-color: rgb(60, 60, 60);
+    --swiper-navigation-size: 20px !important;
+}
+
+main{
+    padding: 120px 0px 0px 0px;
+}
+
+a{
+text-decoration: none;
+}

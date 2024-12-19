@@ -1,0 +1,75 @@
+
+.allProdcut_productCard{
+    position: relative;
+}
+.allProdcut_productCard .allProdcut_product-img>img{
+    border-radius: 4px;
+    width: 100% 
+}
+.allProdcut_product-img{
+    position: relative;
+}
+.allProdcut_productCard>h2{
+    color: rgba(60, 60, 60, 1);
+    text-align: center;
+    font-size: 21px;
+}
+.allProdcut_productTitle{
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    margin: 10px
+}
+.allProdcut_productTitle>h3{
+    color: rgba(60, 60, 60, 1); 
+    margin-right: 10px;
+    font-size: 21px;
+}
+.allProdcut_productTitle>p{
+    color: gray; 
+    text-decoration: line-through;
+    font-size: 15px;
+
+}
+.allProdcut_prodcutInnerText{
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+}
+.allProdcut_product_off{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(229, 79, 79, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: 600;
+}
+.allProdcut_product_zoom{
+    position: absolute;
+    bottom: 20px;
+    right: 23px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgba(60, 60, 60, .75);
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+.allProdcut_product_zoom>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allProdcut_product-img:hover .allProdcut_product_zoom{
+    visibility: visible;
+    cursor: pointer;
+}
